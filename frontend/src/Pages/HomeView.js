@@ -26,7 +26,7 @@ const HomeView = () => {
         </Text>
       </Box>
       <Box bg="white" w="100%" p={4} borderRadius="lg" pt={10} pb={10}>
-      <Tabs.Root variant={'enclosed'}  defaultValue="members">
+      <Tabs.Root variant={'enclosed'}  defaultValue="login">
       <Tabs.List justifyContent={'center'} w={'100%'}>
         <Tabs.Trigger w={'50%'} value="login">
           Login
